@@ -4,15 +4,26 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { QuienesSomos } from './Quienes_somos/Quienes_somos';
+import { RouterModule, Routes } from '@angular/router';
+import { Inicio } from './Inicio/Inicio';
+
+
+const appRoutes:Routes=[
+
+  {path:'',component:Inicio},
+  {path:'QuienesSomos', component:QuienesSomos}
+  
+];
 
 @NgModule({
   
   declarations: [
-    AppComponent
+    AppComponent,QuienesSomos,Inicio
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    RouterModule.forRoot(appRoutes),
     MdbCarouselModule
   ],
   providers: [],
