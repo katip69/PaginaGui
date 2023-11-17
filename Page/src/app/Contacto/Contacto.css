@@ -1,0 +1,65 @@
+
+
+
+a{
+    text-decoration: none;
+    margin:2px;
+}
+
+.detail-boxC {
+    margin-top: 1rem;
+  }
+  .detail-boxC h5 {
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .detail-boxC a {
+    color: inherit;
+  }
+
+/* Configuracion de los textos de las cajas del final de la página*/
+
+  
+  .detail-boxC a {
+    display: inline-block;
+    padding: 10px 3rem;
+    background-color: #013d79;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #013d79;
+    margin-top: 1rem;
+  }
+  
+  .detail-boxC a:hover {
+    color: #ffffff;
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  
+  .detail-boxC {
+    padding: 25px;
+  }
+  
+  .detail-boxC h5 {
+    font-weight: bold;
+  }
+  
+  .detail-boxC p {
+    font-size: 15px;
+  }
+  
+  .detail-boxC a {
+    color: white;
+  }
+  
+  
+  .detail-boxC {
+    
+    border-radius: 1rem;
+    padding: 2rem 1rem 1rem 2rem;
+  }
+  
+  
