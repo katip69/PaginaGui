@@ -8,13 +8,15 @@ import { QuienesSomos } from './Quienes_somos/Quienes_somos';
 import { RouterModule, Routes } from '@angular/router';
 import { Inicio } from './Inicio/Inicio';
 import { Contacto } from './Contacto/Contacto';
+import { Actividades } from './Actividades/Actividades';
 
 
 const appRoutes:Routes=[
 
   {path:'',component:Inicio},
   {path:'QuienesSomos', component:QuienesSomos},
-  {path:'Contacto', component:Contacto}
+  {path:'Contacto', component:Contacto},
+  {path:'Actividades', component:Actividades}
   
 ];
 
