@@ -9,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { Inicio } from './Inicio/Inicio';
 import { Contacto } from './Contacto/Contacto';
 import { Actividades } from './Actividades/Actividades';
+import { foro } from './Foro/foro';
 
 
 const appRoutes:Routes=[
@@ -16,14 +17,15 @@ const appRoutes:Routes=[
   {path:'',component:Inicio},
   {path:'QuienesSomos', component:QuienesSomos},
   {path:'Contacto', component:Contacto},
-  {path:'Actividades', component:Actividades}
+  {path:'Actividades', component:Actividades},
+  {path:'foro',component:foro}
   
 ];
 
 @NgModule({
   
   declarations: [
-    AppComponent,QuienesSomos,Inicio
+    AppComponent,QuienesSomos,Inicio,Contacto,Actividades,foro
   ],
   imports: [
     BrowserModule,
