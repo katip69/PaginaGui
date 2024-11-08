@@ -263,6 +263,32 @@ a:focus {
           transform: translateY(-3px);
 }
 
+.nav-item-blue-border {
+  border: 2px solid #013d79; /* Color azul */
+  background-color: #013d79;
+  
+}
+
+/* Tamaño por defecto (pantallas grandes) */
+.navbar-brand span {
+  font-size: 1.25rem; /* Ajusta este valor al tamaño que desees para pantallas grandes */
+}
+
+/* Cuando la pantalla tenga un ancho máximo de 768px (pantallas pequeñas, como tablets y móviles) */
+@media (max-width: 768px) {
+  .navbar-brand span {
+    font-size: 1rem; /* Tamaño más pequeño en pantallas pequeñas */
+  }
+}
+
+/* Cuando la pantalla tenga un ancho máximo de 480px (pantallas aún más pequeñas, como móviles muy pequeños) */
+@media (max-width: 480px) {
+  .navbar-brand span {
+    font-size: 0.875rem; /* Reducir aún más el tamaño en pantallas muy pequeñas */
+  }
+}
+
+
 /*end header section*/
 
 

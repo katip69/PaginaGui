@@ -57,12 +57,9 @@ export class AppComponent {
       this.item4.nativeElement.classList="nav-item";
     }
   
-    console.log("Hola",this.item1.nativeElement.classList);
   }
   obtenerDireccionActual(): void {
-    this.currentPage= this.location.path();
-    console.log('Dirección actual:', this.currentPage);
-    
+    this.currentPage= this.location.path();    
   }
   
 }
